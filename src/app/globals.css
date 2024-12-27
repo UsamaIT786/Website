@@ -1,0 +1,609 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+
+  display: flex;
+    /* background-color: black; */
+  padding:   10px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.nav ul{
+list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.nav li  {
+
+  color: white;
+
+  
+}
+
+.nav li:hover{
+
+  color: yellow;
+  cursor: pointer;
+}
+
+.btn button{
+
+  color: aquamarine;
+  padding: 10px;
+  font-size: 15px;
+  width: 120px;
+
+}
+
+
+
+body{
+
+  
+  background-color: #1A2D42 ;
+
+}
+
+#p1{
+
+  color: white;
+}
+
+.content h1{
+
+  color: yellow;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.blog h1{
+
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.stat h1{
+
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.content p{
+
+  color: white;
+  font-size: 17px;
+  font-weight: 300;
+  
+
+
+}
+
+#p{
+
+  color: white;
+}
+.content{
+
+  padding: 20px;
+}
+
+.content span{
+
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.h1 h1{
+
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.btn button{
+
+  color: white;
+  background-color: red;
+  border: 2px solid red;
+  border-radius: 15px;
+  padding: 10px;
+  margin-right: 4%;
+}
+
+.btn button:hover{
+
+  background-color: blue;
+  cursor: pointer;
+}
+
+#contacth1{
+
+  font-size: 45px;
+  font-weight:bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+#pricing{
+
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+
+}
+
+
+/* For medium screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .nav ul {
+    gap: 10px;
+  }
+
+  .content {
+    padding: 15px;
+  }
+
+  .content h1 {
+    font-size: 40px;
+  }
+
+  .content span {
+    font-size: 40px;
+  }
+
+  .content p {
+    font-size: 15px;
+  }
+
+  .blog h1, .stat h1 {
+    font-size: 40px;
+  }
+
+  .h1 h1 {
+    font-size: 45px;
+  }
+}
+
+/* For large screens (1025px and above) */
+@media (min-width: 1025px) {
+  .nav {
+    padding: 15px;
+  }
+
+  .btn button {
+    padding: 12px;
+    font-size: 16px;
+  }
+
+  .content h1 {
+    font-size: 50px;
+  }
+
+  .content span {
+    font-size: 50px;
+  }
+
+  .blog h1, .stat h1 {
+    font-size: 50px;
+  }
+
+  .h1 h1 {
+    font-size: 55px;
+  }
+}
+
+
+/* //Animations Apply */
+
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.logo {
+  animation: bounce 2s infinite; /* 2 seconds, infinite loop */
+}
+
+
+/* Back in Left Animation */
+@keyframes backInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  80% {
+    transform: translateX(10%);
+    opacity: 0.8;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply Animation to Navbar Items */
+.nav li {
+  animation: backInLeft 1s ease-out;
+}
+
+
+/* Rubberband Animation */
+@keyframes rubberBand {
+  0% {
+    transform: scaleX(1);
+  }
+  30% {
+    transform: scaleX(1.25);
+  }
+  40% {
+    transform: scaleX(0.75);
+  }
+  50% {
+    transform: scaleX(1.15);
+  }
+  65% {
+    transform: scaleX(0.95);
+  }
+  75% {
+    transform: scaleX(1.05);
+  }
+  100% {
+    transform: scaleX(1);
+  }
+}
+
+/* Apply Animation to Button */
+.btn button {
+  animation: rubberBand 1s ease;
+}
+
+
+  /* Fade In Left Animation */
+@keyframes fadeInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Apply Animation */
+.content h1 {
+  animation: fadeInLeft 3s ease-out;
+}
+
+.content p {
+  animation: fadeInLeft 3s ease-out;
+}
+
+.content span {
+  animation: fadeInLeft 3s ease-out;
+}
+
+
+/* Bounce Animation */
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+/* Apply Bounce on Hover */
+a:hover img {
+  animation: bounce 1s ease;
+}
+
+.btn button:hover {
+  animation: bounce 1s ease;
+}
+
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+#contacth1 {
+  animation: bounce 1s ease infinite;
+}
+
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fadeInRight {
+  animation: fadeInRight 1s ease-out;
+}
+
+
+@keyframes bounceInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#p {
+  color: white;
+  animation: bounceInUp 1s ease-out;
+}
+
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#p1 {
+  color: white;
+  animation: bounceInRight 4s ease-out;
+}
+
+
+@keyframes bounceInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(-10px);
+  }
+  80% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+#p {
+  color: white;
+  animation: bounceInRight 4s ease-out;
+}
+
+
+#pricing {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 45px;
+  transition: transform 0.3s ease; /* Smooth transition for non-animated states */
+}
+
+#pricing:hover {
+  animation: bounceOnHover 1s ease; /* Apply bounce animation on hover */
+}
+
+@keyframes bounceOnHover {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Default position */
+  }
+  40% {
+    transform: translateY(-20px); /* Move up */
+  }
+  60% {
+    transform: translateY(-10px); /* Slight bounce */
+  }
+}
+
+
+.stat h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.3s ease; /* Smooth transition for non-animated states */
+}
+
+.stat h1:hover {
+  animation: bounceOnHover 1s ease; /* Trigger bounce animation on hover */
+}
+
+@keyframes bounceOnHover {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0); /* Default position */
+  }
+  40% {
+    transform: translateY(-20px); /* Move up */
+  }
+  60% {
+    transform: translateY(-10px); /* Smaller bounce */
+  }
+}
+
+
+#h2{
+
+color: yellow;
+
+}
+
+#ps{
+
+  color: white;
+}
+
+
+#h2 {
+  color: yellow;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+#hs{
+
+  color: white;
+}
+
+
+#hs {
+  color: yellow;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+#hs1{
+
+  color: yellow;
+}
+
+#hs1 {
+  color: yellow;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+#hs2{
+
+  color: yellow;
+}
+
+#hs2 {
+  color: yellow;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+
+.img {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.hover-border {
+  border: 5px solid transparent;
+  transition: border 0.3s ease;
+}
+
+.hover-border:hover {
+  border-color: yellow;
+}
+
+
+
+
+
