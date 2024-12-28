@@ -91,7 +91,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-            &quot;Literally you probably haven't heard of them jean shorts.&quot;
+            Literally you probably haven't heard of them jean shorts.
           </p>
         </div>
       </div>
@@ -186,7 +186,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-           &quote; Literally you probably haven't heard of them jean shorts. &quote;
+           Literally you probably haven't heard of them jean shorts.
           </p>
         </div>
       </div>
@@ -294,7 +294,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-          &quot;  Literally you probably haven't heard of them jean shorts.&quot;
+          Literally you probably haven't heard of them jean shorts.
           </p>
         </div>
       </div>
@@ -402,7 +402,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-          &quot;  Literally you probably haven't heard of them jean shorts.&quot;
+          Literally you probably haven't heard of them jean shorts.
           </p>
         </div>
       </div>
