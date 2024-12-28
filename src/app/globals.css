@@ -390,57 +390,16 @@ a:hover img {
   }
 }
 
-#p {
+#para{
+
   color: white;
-  animation: bounceInUp 1s ease-out;
+
 }
 
+#para1{
 
-@keyframes bounceInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  60% {
-    opacity: 1;
-    transform: translateX(-10px);
-  }
-  80% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-#p1 {
   color: white;
-  animation: bounceInRight 4s ease-out;
 }
-
-
-@keyframes bounceInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(50px);
-  }
-  60% {
-    opacity: 1;
-    transform: translateX(-10px);
-  }
-  80% {
-    transform: translateX(5px);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-#p {
-  color: white;
-  animation: bounceInRight 4s ease-out;
-}
-
 
 #pricing {
   font-weight: bold;
@@ -604,6 +563,24 @@ color: yellow;
 }
 
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+#para {
+  color: white;
+  animation: bounce 1s infinite;
+}
+
+#para1 {
+  color: white;
+  animation: bounce 1s infinite;
+}
 
 
 

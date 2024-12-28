@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-
+import Image from 'next/image'
 const Shop = () => {
   return (
     <div>
@@ -20,11 +20,7 @@ const Shop = () => {
     <div className="flex flex-wrap -m-4">
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product1.jpg"
-          />
+          <Image className='object-cover object-center w-full h-full block' src ="/Images/Product1.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -46,11 +42,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product2.jpg"
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product2.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -73,11 +65,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product3.jpg"
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product3.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -101,11 +89,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product4.jpg"
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product4.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -128,11 +112,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product5.jpg"
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product5.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -155,12 +135,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product6.jpg"
-          />
-        </a>
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product6.jpg"alt='pic'width={500}height={500}/>        </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
             CATEGORY
@@ -182,11 +157,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product7.jpg"
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product7.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">
@@ -209,11 +180,7 @@ const Shop = () => {
       </div>
       <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
         <a className="block relative h-48 rounded overflow-hidden">
-          <img
-            alt="ecommerce"
-            className="object-cover object-center w-full h-full block"
-            src="/Images/Product8.jpg   "
-          />
+        <Image className='object-cover object-center w-full h-full block' src ="/Images/Product8.jpg"alt='pic'width={500}height={500}/>
         </a>
         <div className="mt-4">
           <h3 className="text-yellow-500 text-xs tracking-widest title-font mb-1">

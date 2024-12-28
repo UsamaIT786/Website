@@ -1,6 +1,6 @@
 
 import React from 'react'
-
+import Image from 'next/image'
 const Blog = () => {
   return (
     <div>
@@ -21,11 +21,11 @@ const Blog = () => {
               CATEGORY
             </span>
             <h2 className="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">
-            "Your Ultimate Guide to Smart Online Shopping: Tips, Trends, and Offers!"
+            &quot;Your Ultimate Guide to Smart Online Shopping: Tips, Trends, and Offers!&quot;
 
 
             </h2>
-            <p id='p1' className="leading-relaxed mb-8">
+            <p id='para1' className="leading-relaxed mb-8">
             Online shopping has become a cornerstone of modern living. Whether you’re hunting for the latest gadgets, stylish apparel, or daily essentials, e-commerce platforms bring the world to your fingertips. Let’s explore how online shopping is revolutionizing our lives, uncover the latest trends, and guide you to the best deals.
 
     Why Online Shopping Is the Future
@@ -106,11 +106,7 @@ const Blog = () => {
               </span>
             </div>
             <a className="inline-flex items-center">
-              <img
-                alt="blog"
-                src="/Images/Product1.jpg"
-                className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-              />
+              <Image className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" src="/Images/Product1.jpg"alt='pic'width={50}height={100}/>
               <span className="flex-grow flex flex-col pl-4">
                 <span className="title-font font-medium text-white">
                   Holden Caulfield
@@ -126,11 +122,11 @@ const Blog = () => {
               CATEGORY
             </span>
             <h2 className="sm:text-3xl text-2xl title-font font-medium text-white mt-4 mb-4">
-            "Online Shopping Made Easy: Best Deals, Top Trends, and More!"
+            &quot;Your Ultimate Guide to Smart Online Shopping: Tips, Trends, and Offers!&quot;
 
 
             </h2>
-            <p id='p' className="leading-relaxed mb-8">
+            <p id='para' className="leading-relaxed mb-8">
             Online shopping can be overwhelming, but with the right strategies, you can make the most of it. This guide will help you navigate the digital marketplace, save money, and discover the hottest trends.
 
     Tips for Smart Shopping
@@ -212,11 +208,11 @@ const Blog = () => {
               </span>
             </div>
             <a className="inline-flex items-center">
-              <img
-                alt="blog"
-                src="/Images/Product3.jpg"
-                className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
-              />
+
+              <Image className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center" src="/Images/Product2.jpg"alt='pic'width={50}height={100}/>
+              
+
+              
               <span className="flex-grow flex flex-col pl-4">
                 <span className="title-font font-medium text-white">
                   Alper Kamu
