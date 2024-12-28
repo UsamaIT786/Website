@@ -1,4 +1,3 @@
-import React from 'react'
 
 const Pricing = () => {
   return (
@@ -92,7 +91,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-            Literally you probably haven't heard of them jean shorts.
+            &quot;Literally you probably haven't heard of them jean shorts.&quot;
           </p>
         </div>
       </div>
@@ -187,7 +186,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-            Literally you probably haven't heard of them jean shorts.
+           &quote; Literally you probably haven't heard of them jean shorts. &quote;
           </p>
         </div>
       </div>
@@ -295,7 +294,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-            Literally you probably haven't heard of them jean shorts.
+          &quot;  Literally you probably haven't heard of them jean shorts.&quot;
           </p>
         </div>
       </div>
@@ -403,7 +402,7 @@ const Pricing = () => {
             </svg>
           </button>
           <p className="text-xs text-white mt-3">
-            Literally you probably haven't heard of them jean shorts.
+          &quot;  Literally you probably haven't heard of them jean shorts.&quot;
           </p>
         </div>
       </div>

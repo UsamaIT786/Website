@@ -1,5 +1,4 @@
 
-import React from 'react'
 import Image from 'next/image'
 const Blog = () => {
   return (
@@ -127,6 +126,8 @@ const Blog = () => {
 
             </h2>
             <p id='para' className="leading-relaxed mb-8">
+              &quot;
+              
             Online shopping can be overwhelming, but with the right strategies, you can make the most of it. This guide will help you navigate the digital marketplace, save money, and discover the hottest trends.
 
     Tips for Smart Shopping
@@ -159,6 +160,7 @@ const Blog = () => {
 
     With these tips, you can enjoy a seamless and rewarding shopping experience. Stay savvy and make every online purchase count!
 
+    &quot;
 
             </p>
             <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
